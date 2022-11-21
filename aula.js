@@ -10,7 +10,7 @@ const precoCombustivel = 5.79;
 const KmPorLitro = 12;
 const distanciaEmKm = 1580;
 
-let litrosConsumido = distanciaEmKm / KmPorLitro;
-let valorGasto = litrosConsumido * precoCombustivel;
+const litrosConsumido = distanciaEmKm / KmPorLitro;
+const valorGasto = litrosConsumido * precoCombustivel;
 
 console.log(valorGasto.toFixed(2));
